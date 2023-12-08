@@ -3,7 +3,7 @@ import Navbar from "./NavBar/Navbar";
 
 const Main = () => {
   return (
-    <div className=" w-full h-[780px] flex justify-center ">
+    <div className=" w-full h-[650px] flex justify-center ">
       <Navbar isLight={false} />
       <div className="absolute top-0 left-0 xl:w-[32%] 2xl:w-[45%] 2xl:h-[45%] xl:h-[32%] bg-[#845EC2] filter blur-[600px]"></div>
       <div className="absolute bottom-0 right-0 xl:w-[30%] 2xl:w-[40%] 2xl:h-[40%] xl:h-[34%] bg-[#845EC2] filter blur-[600px]"></div>
