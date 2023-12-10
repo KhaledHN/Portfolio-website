@@ -96,7 +96,7 @@ const Github = () => {
                 ></a>
                 <div className=" absolute w-96 h-40 flex justify-center items-center ">
                   <div className=" text-center ">
-                    <p className=" text-[23px] font-semibold text-indigo-600 ">
+                    <p className=" text-[25px] font-semibold text-indigo-600 ">
                       {" "}
                       Coming Soon
                     </p>
