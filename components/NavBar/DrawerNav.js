@@ -33,7 +33,7 @@ function DrawerNav(props) {
           </div>
           <div>
             <ul className="py-4  pt-20 font-inter text-right text-base font-base leading-norma flex-col">
-              <Link href="">
+              <Link href="/">
                 <li onClick={handleNav} className="py-4 text-[18px] text-bold ">
                   Home
                 </li>
