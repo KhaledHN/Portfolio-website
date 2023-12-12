@@ -37,7 +37,7 @@ const Navbar = ({ isLight }) => {
                   Home
                 </li>
               </Link>
-              <Link href="/#prod">
+              <Link href="/Projects">
                 <li className="ml-10 font-normal font-circularstd tracking-tight transition-all duration-100 flex items-center ">
                   <div className=" pr-1 ">
                     <LiaProjectDiagramSolid className=" scale-110 " />
