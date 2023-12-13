@@ -8,7 +8,7 @@ const Main = () => {
       <div className="absolute top-0 left-0 xl:w-[32%] 2xl:w-[45%] 2xl:h-[45%] xl:h-[32%] bg-[#845EC2] filter blur-[600px]"></div>
       <div className="absolute bottom-0 right-0 xl:w-[30%] 2xl:w-[40%] 2xl:h-[40%] xl:h-[34%] bg-[#845EC2] filter blur-[600px]"></div>
 
-      <div className=" max-w-[1240px] h-full flex items-start px-3 pt-32 xl:pt-64 ">
+      <div className=" max-w-[1240px] h-full flex items-start pt-32 xl:pt-64 ">
         <div className=" text-gray-400 text-center ">
           <p className=" text-[60px] font-semibold text-white transition-all duration-100 ">
             Hi, I'm <span className=" text-indigo-500 ">Khaled</span>

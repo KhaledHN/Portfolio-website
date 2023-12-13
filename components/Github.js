@@ -9,7 +9,7 @@ const Github = () => {
       <div className="absolute xl:top-[900px] 2xl:hidden left-0 xl:w-[28%] xl:h-[32%] bg-[#845EC2] filter blur-[600px]"></div>
       <div className=" max-w-[1240px] h-full flex items-start ">
         <div className=" w-full ">
-          <div className=" xl:w-[1200px] flex items-center text-left ">
+          <div className=" xl:w-[1200px] flex items-center text-left pl-3 ">
             <div className=" pr-3 text-[38px]  ">
               <FaGithub />
             </div>
@@ -18,12 +18,12 @@ const Github = () => {
               Github Repositories
             </p>
           </div>
-          <p className=" pt-2 text-gray-300 tracking-tight text-base transition-all duration-100 ">
+          <p className=" pt-2 pl-3 text-gray-300 tracking-tight text-base transition-all duration-100 ">
             Some of my projects repositories, but not all of them :)
           </p>
-          <div className=" w-full h-[650px] xl:h-64 flex items-center overflow-x-scroll scrollbar-hide ">
-            <div className=" xl:flex item col-span-8 gap-5 ">
-              <div className=" pb-10 ">
+          <div className=" w-full h-[660px] xl:h-64 flex items-center overflow-x-scroll scrollbar-hide ">
+            <div className=" xl:flex item col-span-8 gap-5 scale-95  ">
+              <div className=" pb-10">
                 <div className=" w-96 h-40 p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
                   <a href="" className=" w-96 h-40 absolute "></a>
                   <div className=" flex text-lg text-white/90 items-center tracking-tight ">
