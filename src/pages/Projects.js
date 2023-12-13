@@ -61,7 +61,7 @@ const Projects = () => {
               <div className=" pb-12 xl:pb-0 ">
                 <div className=" w-64 h-[300px] p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
                   <a
-                    href="https://www.cookiespor.vercel.app/"
+                    href="/CookieSpor"
                     className=" w-64 h-[300px] absolute "
                   ></a>
                   <div className="  ">
@@ -83,9 +83,7 @@ const Projects = () => {
                       <div className=" pr-[6px] ">
                         <FaLink />
                       </div>
-                      <a href="https://cookiespor.vercel.app/">
-                        cookiespor.vercel.app
-                      </a>
+                      <a href="/CookieSpor">cookiespor.vercel.app</a>
                     </div>
                     <div className=" pr-1 ">
                       <img
