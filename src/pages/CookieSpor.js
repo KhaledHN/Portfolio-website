@@ -13,7 +13,7 @@ const CookieSpor = () => {
           <div className=" w-full xl:flex col-span-2 gap-32 ">
             <div className=" border border-gray-500 rounded-xl ">
               <img
-                src="/assets/Cookiespor.png"
+                src="/assets/cookiespor.png"
                 width={450}
                 className=" rounded-xl "
               />
