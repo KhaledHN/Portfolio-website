@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 import Main from "../../components/Main";
 import Github from "../../components/Github";
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Main />
       <Github />
+      <Analytics />
     </div>
   );
 }
