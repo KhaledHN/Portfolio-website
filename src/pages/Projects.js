@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Navbar from "../../components/NavBar/Navbar";
 import { FaLink } from "react-icons/fa";
 
@@ -27,8 +28,10 @@ const Projects = () => {
                     className=" w-64 h-[300px] absolute "
                   ></a>
                   <div className="  ">
-                    <img
+                    <Image
                       src="/assets/Hazemkhaled.com.png"
+                      width={224}
+                      height={122}
                       className=" rounded-md opacity-100 "
                     />
                   </div>
@@ -48,7 +51,7 @@ const Projects = () => {
                       <a href="https://www.hazemkhaled.com/">hazemkhaled.com</a>
                     </div>
                     <div className=" pr-1 ">
-                      <img
+                      <Image
                         src="/assets/typescript (1).png"
                         width={24}
                         height={24}
@@ -65,8 +68,10 @@ const Projects = () => {
                     className=" w-64 h-[300px] absolute "
                   ></a>
                   <div className="  ">
-                    <img
+                    <Image
                       src="/assets/cookiespor.png"
+                      width={224}
+                      height={122}
                       className=" rounded-md opacity-100 "
                     />
                   </div>
@@ -86,7 +91,7 @@ const Projects = () => {
                       <a href="/CookieSpor">cookiespor.vercel.app</a>
                     </div>
                     <div className=" pr-1 ">
-                      <img
+                      <Image
                         src="/assets/javascript.png"
                         width={24}
                         height={24}
@@ -110,8 +115,10 @@ const Projects = () => {
                   <div className=" blur-sm p-4 ">
                     <div className=" absolute w-64 h-[300px] "></div>
                     <div className="  ">
-                      <img
+                      <Image
                         src="/assets/portfolio-2.png"
+                        width={224}
+                        height={122}
                         className=" rounded-md opacity-100 "
                       />
                     </div>
@@ -131,7 +138,7 @@ const Projects = () => {
                         <a>ThisWebsite</a>
                       </div>
                       <div className=" pr-1 ">
-                        <img
+                        <Image
                           src="/assets/javascript.png"
                           width={24}
                           height={24}
@@ -155,8 +162,10 @@ const Projects = () => {
                   <div className=" blur-sm p-4 ">
                     <div className=" absolute w-64 h-[300px] "></div>
                     <div className="  ">
-                      <img
+                      <Image
                         src="/assets/pamoon-1.png"
+                        width={224}
+                        height={122}
                         className=" rounded-md opacity-100 "
                       />
                     </div>
@@ -176,7 +185,7 @@ const Projects = () => {
                         <a>sitedomain.com</a>
                       </div>
                       <div className=" pr-1 ">
-                        <img
+                        <Image
                           src="/assets/javascript.png"
                           width={24}
                           height={24}
@@ -200,8 +209,10 @@ const Projects = () => {
                   <div className=" blur-sm p-4 ">
                     <div className=" absolute w-64 h-[300px] "></div>
                     <div className="  ">
-                      <img
+                      <Image
                         src="/assets/pamoon-2.png"
+                        width={224}
+                        height={122}
                         className=" rounded-md opacity-100 "
                       />
                     </div>
