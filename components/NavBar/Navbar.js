@@ -45,12 +45,12 @@ const Navbar = ({ isLight }) => {
                   Projects
                 </li>
               </Link>
-              <Link href="/#faq">
+              <Link href="/Contact">
                 <li className="ml-10 font-normal font-circularstd tracking-tight transition-all duration-100 flex items-center ">
                   <div className=" pr-1 ">
                     <FaRegComment />
                   </div>
-                  FAQ
+                  Contact
                 </li>
               </Link>
             </ul>
