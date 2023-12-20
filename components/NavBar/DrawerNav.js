@@ -43,7 +43,7 @@ function DrawerNav(props) {
                   Projects
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/Contact">
                 <li onClick={handleNav} className="py-4 text-[18px] text-bold ">
                   Contact
                 </li>
