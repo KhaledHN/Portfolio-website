@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className=" w-full h-[2200px] flex justify-center ">
+    <div className=" w-full h-[2200px] xl:h-screen flex justify-center ">
       <div className="absolute top-0 left-0 xl:w-[32%] 2xl:w-[45%] 2xl:h-[45%] xl:h-[32%] bg-[#845EC2] filter blur-[600px] opacity- "></div>
       <div className="absolute bottom-0 right-0 xl:w-[30%] 2xl:w-[40%] 2xl:h-[40%] xl:h-[34%] bg-[#845EC2] filter blur-[600px] "></div>
       <Navbar />
