@@ -22,9 +22,12 @@ const Navbar = ({ isLight }) => {
       <div className=" w-full h-full flex justify-center pt-4 px-1 2xl:px-16">
         <div className=" w-[90%] md:max-w-[1300px] h-[100%] border border-gray-700 backdrop-blur-sm bg-white/10 rounded-xl pl-5 flex justify-between lg:justify-around items-center ">
           <div className=" md:pl-0 ">
-            <h1 className=" text-indigo-500 pb-1 text-[40px] font-semibold ">
+            <a
+              href="/"
+              className=" text-indigo-500 pb-1 text-[40px] font-semibold "
+            >
               Khaled
-            </h1>
+            </a>
           </div>
 
           <div className=" flex">
