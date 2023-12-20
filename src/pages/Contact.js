@@ -96,7 +96,7 @@ const Contact = () => {
             <div className="flex flex-col py-4">
               <div className="flex  flex-col">
                 <input
-                  className="  w-[350px] xl:w-[450px] p-2 flex placeholder:text-gray-100/90 px-6 focus:text-black/50 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
+                  className="  w-[350px] xl:w-[450px] p-2 flex placeholder:text-gray-100/90 px-6 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
                   type="text"
                   placeholder="Name"
                   id="name"
@@ -112,7 +112,7 @@ const Contact = () => {
 
               <div className=" flex flex-col pt-3 pb-1">
                 <input
-                  className=" w-[350px] xl:w-[450px] p-2 flex placeholder:text-gray-100/90 px-6 focus:text-black/50 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
+                  className=" w-[350px] xl:w-[450px] p-2 flex placeholder:text-gray-100/90 px-6 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
                   id="email"
                   placeholder="Email"
                   type="email"
@@ -128,7 +128,7 @@ const Contact = () => {
 
               <div className=" flex flex-col py-2">
                 <textarea
-                  className=" h-28 flex placeholder:text-gray-100/90 px-6 focus:text-black/50 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
+                  className=" h-28 flex placeholder:text-gray-100/90 px-6 focus:bg-zinc-800/90 outline-none py-2.5 bg-zinc-900 border border-white/10 rounded-lg transition-all duration-200 tracking-tight"
                   rows={10}
                   placeholder="Message"
                   id="message"
