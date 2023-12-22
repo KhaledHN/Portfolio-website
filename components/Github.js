@@ -5,7 +5,7 @@ import { FaRegStar, FaCodeFork } from "react-icons/fa6";
 
 const Github = () => {
   return (
-    <div className=" w-full h-[700px] xl:pt-16 flex justify-center ">
+    <div className=" w-full h-[700px] xl:h-[500px] xl:pt-16 flex justify-center ">
       <div className="absolute xl:top-[900px] 2xl:hidden left-0 xl:w-[28%] xl:h-[32%] bg-[#845EC2] filter blur-[600px]"></div>
       <div className=" max-w-[1240px] h-full flex items-start ">
         <div className=" w-full ">
