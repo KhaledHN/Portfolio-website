@@ -70,7 +70,7 @@ const Navbar = ({ isLight }) => {
               <FaGithub className=" scale-110 " />
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/in/khaledHN/"
               className=" w-8 h-8 bg-white/30 rounded-full flex justify-center items-center "
             >
               <FaLinkedinIn />
