@@ -72,7 +72,7 @@ const Contact = () => {
                         </div>
                         <div className=" pb-7  ">
                           <div style={gradientStyle}>
-                            <a>
+                            <a className=" text-zinc-900 ">
                               <FaInstagram className=" scale-125 " />
                             </a>
                           </div>
