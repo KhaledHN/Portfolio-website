@@ -32,24 +32,24 @@ const Navbar = ({ isLight }) => {
 
           <div className=" flex">
             <ul className=" pr-5 hidden lg:flex">
-              <Link href="/">
-                <li className="ml-10 font-normal font-circularstd tracking-tight transition-all duration-100 flex items-center ">
+              <Link className=" ml-10 " href="/">
+                <li className=" font-normal hover:scale-110 font-circularstd tracking-tight transition-all duration-200 flex items-center ">
                   <div className=" pr-1 ">
                     <TiHomeOutline />
                   </div>
                   Home
                 </li>
               </Link>
-              <Link href="/Projects">
-                <li className="ml-10 font-normal font-circularstd tracking-tight transition-all duration-100 flex items-center ">
+              <Link className=" ml-10 " href="/Projects">
+                <li className=" font-normal hover:scale-110 font-circularstd tracking-tight transition-all duration-200 flex items-center ">
                   <div className=" pr-1 ">
                     <LiaProjectDiagramSolid className=" scale-110 " />
                   </div>
                   Projects
                 </li>
               </Link>
-              <Link href="/Contact">
-                <li className="ml-10 font-normal font-circularstd tracking-tight transition-all duration-100 flex items-center ">
+              <Link className=" ml-10 " href="/Contact">
+                <li className=" font-normal hover:scale-110 font-circularstd tracking-tight transition-all duration-200 flex items-center ">
                   <div className=" pr-1 ">
                     <FaRegComment />
                   </div>
@@ -65,13 +65,13 @@ const Navbar = ({ isLight }) => {
           <div className=" hidden lg:flex gap-3 ">
             <a
               href="https://github.com/KhaledHN"
-              className=" w-8 h-8 bg-white/30 rounded-full flex justify-center items-center "
+              className=" w-8 h-8 bg-white/30 hover:scale-125 duration-150 rounded-full flex justify-center items-center "
             >
               <FaGithub className=" scale-110 " />
             </a>
             <a
               href="https://www.linkedin.com/in/khaledHN/"
-              className=" w-8 h-8 bg-white/30 rounded-full flex justify-center items-center "
+              className=" w-8 h-8 bg-white/30 hover:scale-125 duration-150 rounded-full flex justify-center items-center "
             >
               <FaLinkedinIn />
             </a>

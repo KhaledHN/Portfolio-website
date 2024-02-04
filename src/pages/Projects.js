@@ -20,9 +20,9 @@ const Projects = () => {
             Some completed projects and continue to work on new ones.
           </p>
           <div className=" w-full h-[2000px] xl:h-96 flex items-center justify-center xl:justify-normal overflow-x-scroll scrollbar-hide pt-10 xl:pt-0 ">
-            <div className=" xl:flex col-span-8 gap-6 scale-110 xl:scale-100 ">
+            <div className=" xl:flex col-span-8 gap-4 pl-2 scale-110 xl:scale-100 ">
               <div className=" pb-12 xl:pb-0 ">
-                <div className=" w-64 h-[300px] p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
+                <div className=" w-64 h-[300px] p-4 bg-zinc-900 hover:bg-zinc-800 hover:scale-105 duration-150 rounded-lg ">
                   <a
                     href="/HazemKhaled"
                     className=" w-64 h-[300px] absolute "
@@ -62,7 +62,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className=" pb-12 xl:pb-0 ">
-                <div className=" w-64 h-[300px] p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
+                <div className=" w-64 h-[300px] p-4 bg-zinc-900 hover:bg-zinc-800 hover:scale-105 duration-150 rounded-lg ">
                   <a
                     href="/CookieSpor"
                     className=" w-64 h-[300px] absolute "
@@ -103,7 +103,7 @@ const Projects = () => {
               </div>
 
               <div className=" pb-12 xl:pb-0 ">
-                <div className=" w-64 h-[300px]  bg-zinc-900 rounded-lg ">
+                <div className=" w-64 h-[300px]  bg-zinc-900 hover:scale-105 duration-150 rounded-lg ">
                   <div className=" absolute w-64 h-[300px] flex justify-center items-center ">
                     <div className=" text-center ">
                       <p className=" text-[25px] font-semibold text-indigo-600 ">
@@ -150,7 +150,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className=" pb-12 xl:pb-0 ">
-                <div className=" w-64 h-[300px]  bg-zinc-900 rounded-lg ">
+                <div className=" w-64 h-[300px]  bg-zinc-900 hover:scale-105 duration-150 rounded-lg ">
                   <div className=" absolute w-64 h-[300px] flex justify-center items-center ">
                     <div className=" text-center ">
                       <p className=" text-[25px] font-semibold text-indigo-600 ">
@@ -197,7 +197,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="pb-12 xl:pb-0 ">
-                <div className=" w-64 h-[300px]  bg-zinc-900 rounded-lg ">
+                <div className=" w-64 h-[300px]  bg-zinc-900 hover:scale-105 duration-150 rounded-lg ">
                   <div className=" absolute w-64 h-[300px] flex justify-center items-center ">
                     <div className=" text-center ">
                       <p className=" text-[25px] font-semibold text-indigo-600 ">

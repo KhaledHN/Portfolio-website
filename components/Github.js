@@ -22,9 +22,9 @@ const Github = () => {
             Some of my projects repositories, but not all of them :)
           </p>
           <div className=" w-full h-[660px] xl:h-64 flex items-center overflow-x-scroll scrollbar-hide ">
-            <div className=" xl:flex item col-span-8 gap-5 scale-95  ">
+            <div className=" xl:flex col-span-8 gap-5 scale-95  ">
               <div className=" pb-10">
-                <div className=" w-96 h-40 p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
+                <div className=" w-96 h-40 p-4 bg-zinc-900 hover:bg-zinc-800 hover:scale-105 duration-150 rounded-lg ">
                   <a href="" className=" w-96 h-40 absolute "></a>
                   <div className=" flex text-lg text-white/90 items-center tracking-tight ">
                     <div className=" pr-[6px] ">
@@ -59,7 +59,7 @@ const Github = () => {
                 </div>
               </div>
               <div className=" pb-10 ">
-                <div className=" w-96 h-40 p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg ">
+                <div className=" w-96 h-40 p-4 bg-zinc-900 hover:bg-zinc-800 hover:scale-105 duration-150 rounded-lg ">
                   <a href="" className=" w-96 h-40 absolute "></a>
                   <div className=" flex text-lg text-white/90 items-center tracking-tight ">
                     <div className=" pr-[6px] ">
@@ -93,7 +93,7 @@ const Github = () => {
                   </div>
                 </div>
               </div>
-              <div className=" w-96 h-40 bg-zinc-900 rounded-lg ">
+              <div className=" w-96 h-40 bg-zinc-900 rounded-lg hover:scale-105 duration-150 ">
                 <a
                   href=""
                   className=" w-96 h-40 bg-zinc-900/10 absolute rounded-lg "
